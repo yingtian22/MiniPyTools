@@ -27,6 +27,7 @@ Install via pip:
 
 ```bash
 pip install opencv-python
+```
 
 ## 🚀 Usage
 
@@ -37,7 +38,7 @@ from image_video_converter import images_to_video
 
 # Example: Create a video from images in 'image_folder', save as 'output_video.mp4'
 images_to_video("image_folder", "output_video.mp4", fps=30)
-
+```
 
 # 🖼️ Image Resizer
 
@@ -61,6 +62,7 @@ Install with:
 
 ```bash
 pip install opencv-python
+```
 
 ## 🚀 Usage
 
@@ -71,3 +73,4 @@ from image_resizer import resize_images
 
 # Example: Resize all images in 'input_folder' to 256x256 and save them to 'resized'
 resize_images("input_folder", "resized", 256, 256)
+```
