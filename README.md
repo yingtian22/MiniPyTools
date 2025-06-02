@@ -1,5 +1,11 @@
-# Some-commonly-used-small-tools
-Some Python scripting tools used in work and experimental processes.
+# 🧰 MiniPyTools
+
+A curated collection of small but handy Python scripting tools used in daily work, automation, and experimental workflows.
+
+These tools are lightweight, reusable, and easy to extend for various tasks such as file processing, data cleaning, image analysis, and system scripting.
+
+> Some commonly used small Python tools for real-world productivity and research support.
+
 
 # 📽️ Image-Video Converter
 
