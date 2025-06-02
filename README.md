@@ -27,3 +27,47 @@ Install via pip:
 
 ```bash
 pip install opencv-python
+
+## 🚀 Usage
+
+### 1. Convert a folder of images to an MP4 video
+
+```python
+from image_video_converter import images_to_video
+
+# Example: Create a video from images in 'image_folder', save as 'output_video.mp4'
+images_to_video("image_folder", "output_video.mp4", fps=30)
+
+
+# 🖼️ Image Resizer
+
+A simple Python tool to batch resize images in a folder to a specific width and height (m × n).
+
+Ideal for preprocessing datasets, standardizing image sizes for ML tasks, or simply resizing multiple images at once.
+
+## 🔧 Features
+
+- Batch resize `.jpg`, `.jpeg`, and `.png` images
+- Customize output size with height (`m`) and width (`n`)
+- Saves resized images to a separate output folder
+- Uses `OpenCV` for fast and reliable image processing
+
+## 🛠️ Requirements
+
+- Python 3.x
+- `opencv-python` package
+
+Install with:
+
+```bash
+pip install opencv-python
+
+## 🚀 Usage
+
+### Import and Call the Function
+
+```python
+from image_resizer import resize_images
+
+# Example: Resize all images in 'input_folder' to 256x256 and save them to 'resized'
+resize_images("input_folder", "resized", 256, 256)
