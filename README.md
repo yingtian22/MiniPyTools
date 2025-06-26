@@ -113,3 +113,48 @@ resize_images("input_folder", "resized", 256, 256)
 ```bash
 pip install numpy matplotlib pillow
 ```
+
+```bash
+from plot_3d import plot_3d_surface
+
+# 调用函数，生成 3D 表面图
+plot_3d_surface('your_image.png', 'output_3d_plot.png')
+```
+
+# 📈 Grayscale Histogram Plotter
+
+该工具可将任意图像（自动转换为灰度）转换为平滑处理的像素强度直方图，并输出为高质量学术风格图像。  
+适用于图像分析、计算机视觉教学、科研论文图表等场景。
+
+---
+
+## 🎯 功能特性
+
+- 自动读取图像并转换为灰度模式
+- 生成平滑处理的灰度直方图（支持高斯滤波）
+- 支持绘制像素强度均值线与标准差区域
+- 使用对数纵轴更好展示图像分布特性
+- 输出专业风格图表，默认字体为 Times New Roman
+
+---
+
+## 🖼️ 输出图示
+
+> 运行后将生成如下所示的直方图：
+
+<p align="center">
+  <img src="histogram.png" alt="Grayscale Histogram Example" width="600">
+</p>
+
+---
+
+## 📦 安装依赖
+
+```bash
+pip install opencv-python matplotlib scipy numpy
+```
+```bash
+from histogram_plot import plot_histogram
+
+plot_histogram('your_image.png', 'output_histogram.png')
+```
