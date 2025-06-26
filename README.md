@@ -80,3 +80,36 @@ from image_resizer import resize_images
 # Example: Resize all images in 'input_folder' to 256x256 and save them to 'resized'
 resize_images("input_folder", "resized", 256, 256)
 ```
+
+# 📊 Image to 3D Surface Plot
+
+将任意灰度图像转换为三维表面图（3D surface plot），并保存为高质量图像。  
+适用于图像可视化、图像处理教学演示、学术论文图表制作等专业场景。
+
+---
+
+## 📌 特性
+
+- ✅ 将图像像素强度映射为 3D 高度信息  
+- 🎨 专业美术风格（Times New Roman 字体、柔和配色、白色背景）  
+- 🖼️ 自定义渐变 colormap（深蓝 → 白）  
+- 📈 高分辨率图像输出，适用于论文插图  
+- 🧠 支持任意图像格式，自动转为灰度处理  
+
+---
+
+## 🖼️ 可视化示例
+
+> 运行后会生成类似如下的图像：
+
+<p align="center">
+  <img src="surface_plot.png" alt="3D surface plot example" width="600">
+</p>
+
+---
+
+## 📦 安装依赖
+
+```bash
+pip install numpy matplotlib pillow
+```
